@@ -20,21 +20,19 @@ BODY {
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 1px solid: #33485e;
+  border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
 }
 
-#degrees{
+#degree{
   margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
   margin: 0 auto;
-}
-
-/*I am not writing this correctly*/
-.do{
-  margin-top: 5px;
-  margin: 0 auto;
+  text-align: left;
 }
 
 /* Title */
@@ -81,9 +79,13 @@ BODY {
   font-size: 1em;
   font-style: italic;
   margin-top: 2px;
-  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
 }
 
+/* Paragraphs */
 .description{
   margin-top: 10px;
   margin-bottom: 10px;
@@ -91,14 +93,34 @@ BODY {
   margin-left: 0px;
 }
 
+/* I am not writing this correctly */
+#do{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin:0 auto;
+  text-align: left;
+}
+
 /* Contact Info */
 /* Having trouble with the menu part */
-.menu{
+.menu li{
+  margin:0 auto;
+  padding:0 auto;
   display: inline;
+  list-style-type: none;
 }
 
 ul{
   font-size: 1em;
   margin: 0 auto;
   text-align: center;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
 }
